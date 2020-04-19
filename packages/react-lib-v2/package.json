@@ -4,7 +4,6 @@
   "description": "Made with create-react-library",
   "author": "jaslloyd",
   "license": "MIT",
-  "repository": "",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -14,13 +13,10 @@
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
-    "prepublish": "run-s build",
-    "test": "run-s test:unit test:lint test:build",
-    "test:build": "run-s build",
+    "test": "yarn test:unit",
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
-    "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "cd example && yarn install && yarn run build"
+    "test:watch": "react-scripts test --env=jsdom"
   },
   "peerDependencies": {
     "react": "^16.0.0"
@@ -43,7 +39,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
-    "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
