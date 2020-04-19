@@ -28,5 +28,7 @@ Each folder under the packages folder is considered a workspace, for example we 
 ## Resources
 
 [Ben Awad yarn-workspaces-example](https://github.com/benawad/yarn-workspaces-example) - [Video Tutorial](https://www.youtube.com/watch?v=G8KXFWftCg0)
+
 [Lerna-yarn-workspaces-example](https://github.com/Quramy/lerna-yarn-workspaces-example)
+
 [Alternative way to create a react library](https://github.com/transitive-bullshit/create-react-library)
