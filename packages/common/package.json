@@ -2,7 +2,7 @@
   "name": "@monorepo/common",
   "version": "1.0.0",
   "description": "Repo that contains common React Components",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p ."
   },
