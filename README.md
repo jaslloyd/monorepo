@@ -23,3 +23,9 @@ Each folder under the packages folder is considered a workspace, for example we 
     ├──── fe1                       # Sample React app #1
     ├──── fe2                       # Sample React app #2
     └── ...
+
+
+## Resources
+
+[Ben Awad yarn-workspaces-example](https://github.com/benawad/yarn-workspaces-example) - [Video Tutorial](https://www.youtube.com/watch?v=G8KXFWftCg0)
+[Lerna-yarn-workspaces-example](https://github.com/Quramy/lerna-yarn-workspaces-example)
