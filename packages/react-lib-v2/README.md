@@ -27,4 +27,4 @@ class Example extends Component {
 
 ## License
 
-react-lib-v2 © [jaslloyd](https://github.com/jaslloyd)
+MIT © [jaslloyd](https://github.com/jaslloyd)
