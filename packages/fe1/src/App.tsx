@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { HelloWorld } from '@monorepo/common';
+import { HelloWorld } from '@monorepo/react-component-lib';
 import './App.css';
 
 function App() {
