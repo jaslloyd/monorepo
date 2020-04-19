@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import { HelloWorld } from '@monorepo/react-component-lib';
+import { ExampleComponent } from '@monorepo/react-lib-v2';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <HelloWorld msg="Learn React2222" />
+          <ExampleComponent text="from lib v2" />
         </a>
       </header>
     </div>
