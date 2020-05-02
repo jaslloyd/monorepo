@@ -2,5 +2,11 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "start:fe1": "yarn workspace fe1 start",
+    "start:fe2": "yarn workspace fe2 start",
+    "start:react-lib": "yarn workspace @monorepo/react-lib-v2 start",
+    "build:component-lib": "yarn workspace @monorepo/react-component-lib build",
+  }
 }
